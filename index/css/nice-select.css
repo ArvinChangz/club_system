@@ -1,0 +1,64 @@
+.nice-select {
+  background-color: #fff;
+  border: solid 1px #a9a9a9;
+  cursor: pointer;
+  font-family: 微軟正黑體;
+  font-size: 14px;
+
+  height: auto;
+  line-height: 28px;
+  outline: none;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 80%; }
+
+  .nice-select:after {
+    border-bottom: 2px solid #a9a9a9;
+    border-right: 2px solid #a9a9a9;
+    content: '';
+    display: block;
+    height: 5px;
+    margin-top: -4px;
+    pointer-events: none;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    -webkit-transform-origin: 66% 66%;
+        -ms-transform-origin: 66% 66%;
+            transform-origin: 66% 66%;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    width: 5px; }
+
+  .nice-select.open .list {
+    opacity: 1;
+    pointer-events: auto;
+ }
+
+  .nice-select .list {
+    background-color: #fff;
+    box-shadow: 0 0 0 1px #a9a9a9;
+    margin-top: 4px;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    z-index: 9; }
+
+  .nice-select .option {
+    cursor: pointer;
+    width: 100%;
+    line-height: 28px;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center; }
+    .nice-select .nice-select .option.focus, .nice-select .option.selected.focus {
+      background-color: white; }

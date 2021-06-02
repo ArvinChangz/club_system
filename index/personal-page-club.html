@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>個人頁面-幹部</title>
+
+    <!-- Custom styles for this template -->
+
+     <link rel="stylesheet"  href="button.css">
+     <!--search-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="calendor.css">
+    <link rel="stylesheet" href="hover.css">
+    <link rel="stylesheet" href="button.css">
+</head>
+
+<body>
+ <header class="header-area">
+        <!-- Main Header Start -->
+        <div class="main-header-area  fiexd-header">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Classy Menu -->
+                    <nav class="classy-navbar justify-content-between" id="robertoNav">
+
+                        <!-- 系統名稱 -->
+                        <a class="nav-brand" href="#"><font face="微軟正黑體" color="white">社團活動管理系統</font></a>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+                            <!-- Menu Close Button -->
+                            <div class="calendor">
+                                <button type="button" style="border: 0px; background: none;"><img src="img\128x128.png"></button>
+                            </div>
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul id="nav">
+                                    <li><a href="#">活動列表</a></li>
+                                    <li><a href="#">社團列表</a></li>
+                                    <li><a href="#">個人頁面 +</a>
+                                        <ul class="dropdown">
+                                            <li><a id="r" class="js-scroll-trigger"href="#rewrite">- 修改資料</a></li>
+                                            <li><a class="js-scroll-trigger" id="j" href="#join">- 已報名/取消活動</a></li>
+                                            <li><a class="js-scroll-trigger" id="h" href="#history">- 歷年活動</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">幹部 +</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">- 活動管理</a></li>
+                                            <li><a href="#">- 管理報名</a></li>
+                                            <li><a href="#">- 權限變更</a></li>
+                                            <li><a href="#">- 社團資訊</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">登出</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+<!--修改資料開始!-->
+<section class="roberto-blog-area section-padding-100-0" id="rewrite">
+    <div class="container">
+        <div class="row">
+            <!-- 標題 -->
+            <div class="col-12"><br><br>
+                <div class="section-heading text-center wow fadeInUp" data-wow-delay="150ms">
+                    <h2 style="font-family: 微軟正黑體">修改資料</h2>
+                </div>
+            </div>
+        </div>
+    <div class="roberto-news-area section-padding-100-0">
+    <div class="container wow fadeInUp" data-wow-delay="100ms">
+
+<div align="center">
+   <form>
+    <table align="center" border="0" rules="all" width="70%" style="font-family: 微軟正黑體">
+            <tr  height="45" style="border-left-color: white; border-right-color: white; border-bottom-color: #ccd3d9; border-bottom-style: solid;">
+                <td colspan="2"><font color="#7e212c" size="4"><strong>個人資訊</strong></font></td>
+            </tr>
+            <tr height="45" style="border-color: white;">
+                <td width="55%" style="padding-top: 25px;">&nbsp;姓名：&nbsp;王大明</td>
+                <td width="45%" style="padding-top: 15px;">&nbsp;學號：&nbsp;406402001</td>
+            </tr>
+            <tr height="45" style="border-color: white;">
+                <td width="55%" style="padding-top: 15px;">&nbsp;系級：&nbsp;資管&nbsp;乙</td>
+                <td width="45%" style="padding-top: 15px;">&nbsp;電話：&nbsp;<input type="text" name="phone" size="20" value="0900000001"></td>
+            </tr>
+            <tr height="45" style="border-color: white;">
+                <td width="55%" style="padding-top: 15px;">&nbsp;所屬社團：&nbsp;吉他社</td>
+                <td width="45%" style="padding-top: 15px;">&nbsp;便當葷素：&nbsp;<input type="radio" name="food" value="meat" checked> 葷&nbsp;&nbsp;<input type="radio" name="food" value="vegi"> 素<br></td>
+            </tr>
+            <tr height="45" style="border-color: white;">
+                <td width="55%" style="padding-top: 15px;">&nbsp;email：&nbsp;<input type="text" name="email" size="35" value="406402001@gmail.gapp.fju.edu.tw"></td>
+                <td width="45%" style="padding-top: 15px;">&nbsp;累積參加活動數：&nbsp;1</td>
+            </tr>
+            <tr height="50" style="border-color: white;" align="center">
+                <td style="padding-top: 30px;" colspan="2">
+                    <button type="submit" value="提交" class="signcheckbutton" onClick="alert('儲存成功。')">儲存</button>&nbsp;&nbsp;&nbsp;
+                    <button type="reset" value="重設"  class="signcheckbutton" >重設</button>
+                </td>
+            </tr>
+     </table><br><br><br><br><br>
+    </form>
+</div>
+        </div>
+        </div>
+    </div>
+</section>
+<!--修改資料結束!-->
+
+<!--已報名活動開始!-->
+<section class="roberto-blog-area section-padding-100-0" id="join">
+    <div class="container">
+        <div class="row">
+            <!-- 標題 -->
+            <div class="col-12">
+                <div class="section-heading text-center wow fadeInUp" data-wow-delay="150ms"><br><br>
+                    <h2 style="font-family: 微軟正黑體">已報名&nbsp;/&nbsp;取消活動</h2>
+                </div>
+            </div>
+        </div>
+    <div class="roberto-news-area section-padding-100-0">
+    <div class="container wow fadeInUp" data-wow-delay="100ms">
+
+<div align="center">
+    <form>
+    <table align="center" border="1" rules="all" width="80%" style="font-family: 微軟正黑體; border-color: #ccd3d9;">
+    <tr height="45" style="border-top-color: white; border-left-color: white; border-right-color: white;">
+        <td align="center"><font color="#7e212c"><strong>活動名稱</strong></font></td>
+        <td align="center"><font color="#7e212c"><strong>活動開始日期</strong></font></td>
+        <td align="center"><font color="#7e212c"><strong>舉辦社團</strong></font></td>
+        <td align="center"><font color="#7e212c"><strong>取消活動</strong></font></td>
+    </tr>
+    <tr height="45" class="hover">
+          <td align="center">濕濕日</td>
+          <td align="center">2020/05/05</td>
+          <td align="center">熱舞社</td>
+          <td align="center"><label class="button" style="background:none;color:black;font-size:20px;padding-top: 10px" onclick="alert('已成功取消報名該活動')"><i class="fa fa-trash-o"></i></label></td>
+    </tr>
+    </table>
+    </form>
+</div>
+        </div>
+        </div>
+    </div>
+</section>
+<!--已報名活動結束!-->
+
+<br><br><br><br><br><br><br><br>
+
+<!--歷年活動開始!-->
+<section class="roberto-blog-area section-padding-100-0" id="history">
+    <div class="container">
+        <div class="row">
+            <!-- 標題 -->
+            <div class="col-12">
+                <div class="section-heading text-center wow fadeInUp" data-wow-delay="150ms"><br><br>
+                    <h2 style="font-family: 微軟正黑體">歷年活動</h2>
+                </div>
+            </div>
+        </div>
+    <div class="roberto-news-area section-padding-100-0">
+    <div class="container wow fadeInUp" data-wow-delay="100ms">
+
+<div align="center">
+    <form>
+    <table align="center" border="1" rules="all" width="80%" style="font-family: 微軟正黑體; border-color: #ccd3d9;">
+    <tr height="45" style="border-top-color: white; border-left-color: white; border-right-color: white;">
+        <td align="center"><font color="#7e212c"><strong>活動名稱</strong></font></td>
+        <td align="center"><font color="#7e212c"><strong>活動開始日期</strong></font></td>
+        <td align="center"><font color="#7e212c"><strong>舉辦社團</strong></font></td>
+        <td align="center"><font color="#7e212c"><strong>填寫意見</strong></font></td>
+
+    </tr>
+    <tr height="45" class="hover">
+          <td align="center">烤肉趣</td>
+          <td align="center">2017/03/05</td>
+          <td align="center">桌遊社</td>
+          <td align="center"><label class="portfolio-link" data-toggle="modal" href="#portfolioModal1" style="background:none;color:black;font-size:20px;padding-top: 10px"><i class="fa fa-pencil"></i></label></td>
+    </tr>
+    <tr height="45" class="hover">
+          <td align="center">烤肉趣</td>
+          <td align="center">2017/03/05</td>
+          <td align="center">桌遊社</td>
+          <td align="center">已過期</td>
+    </tr>
+    </table>
+    </form>
+</div>
+        </div>
+        </div>
+    </div>
+</section>
+<!--歷年活動結束!-->
+<br><br><br><br><br><br><br><br>
+
+<!-- Modal 1 意見箱 開始-->
+    <div class=" modal fade" id="portfolioModal1" tabindex="-1" >
+      <div class="modal-dialog modal-lg" style="width: 100%">
+        <div class="modal-content">
+          <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+          </div>
+          <div class="modal-body">
+          <div id="selectTree" class="ztree" style="height:1000px width:1000px;overflow:auto;">
+
+     <form>
+        <table align="center" border="0" rules="all" width="100%" style="font-family: 微軟正黑體">
+            <h2 align="center"><font face="微軟正黑體" color="#321e17"><strong>烤肉趣</strong></font></h2><br>
+            <tbody>
+                <tr style="border-color: white;">
+                    <td align="center" valign="center"><textarea name="comment" cols="70" rows="6" style="font-family:微軟正黑體" placeholder="限100字以內"></textarea></td>
+                </tr>
+                <tr height="50" style="border-color: white;">
+                    <td align="center" valigh="middle"><br>
+                    <button type="submit" value="提交" class="signcheckbutton" onClick="alert('提交成功。')">提交</button>&nbsp;&nbsp;&nbsp;
+                    <button type="reset" value="重設" class="signcheckbutton">重設</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table><br>
+    </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- 意見箱 結束 -->
+
+<style>
+input {
+padding:5px 15px;
+background:#EDEDED;
+border:0 none;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px; }
+</style>
+
+<!-- **** All JS Files ***** -->
+    <!-- jQuery 2.2.4 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins -->
+    <script src="js/roberto.bundle.js"></script>
+    <!-- Active -->
+    <script src="js/default-assets/active.js"></script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="startbootstrap-stylish-portfolio-gh-pages/vendor/jquery/jquery.min.js"></script>
+  <script src="startbootstrap-stylish-portfolio-gh-pages/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="startbootstrap-stylish-portfolio-gh-pages/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="startbootstrap-stylish-portfolio-gh-pages/js/stylish-portfolio.min.js"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>access-management</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="#">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hover.css">
+    <link rel="stylesheet" href="button.css">
+
+
+</head>
+
+<body>
+    <header class="header-area">
+        <!-- Main Header Start -->
+        <div class="main-header-area  fiexd-header">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Classy Menu -->
+                    <nav class="classy-navbar justify-content-between" id="robertoNav">
+
+                        <!-- 系統名稱 -->
+                        <a class="nav-brand" href="#"><font face="微軟正黑體" color="white">社團活動管理系統</font></a>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul id="nav">
+                                    <li><a href="#">活動</a></li>
+                                    <li><a href="#">報名</a></li>
+                                    <li><a href="#">社團</a></li>
+                                    <li><a href="#">權限</a></li>&nbsp;&nbsp;&nbsp;
+                                    <li><a href="#">登出</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+<br><br>
+<!-- 權限 開始-->
+    <section class="roberto-blog-area section-padding-100-0">
+        <div class="container">
+            <div class="row">
+                <!-- 標題 -->
+                <div class="col-12">
+                    <div class="section-heading text-center wow fadeInUp" data-wow-delay="150ms">
+                        <h2 style="font-family: 微軟正黑體;color: #321e17">權限管理</h2>
+                    </div>
+                </div>
+            </div>
+    <div class="roberto-news-area section-padding-100-0">
+        <div class="container wow fadeInUp" data-wow-delay="100ms">
+            <div class="row justify-content-right">
+                <div style="width: 50%; float: left;">
+                    <h6 style="font-family: 微軟正黑體; font-size: 24px;">社團幹部</h6>
+                </div>
+                <div style="width: 50%; float: right; padding-left: 380px;">
+                    <button class="button" onClick="alert('無權限使用此功能!')">變更權限</button>&nbsp;&nbsp;
+                    <button class="button"><a class="portfolio-link" data-toggle="modal" href="#portfolioModal2"><font color="white">新增權限</font></a></button>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                    <table style="font-family: 微軟正黑體; font-size: 16px;" border="1" width="1200px">
+                    <thead>
+                        <tr>
+                            <td height="30px" width="15%" align="center" valign="center"><strong>職稱</strong></td>
+                            <td height="30px" width="15%" align="center" valign="center"><strong>系級</strong></td>
+                            <td height="30px" width="15%" align="center" valign="center"><strong>姓名</strong></td>
+                            <td height="30px" width="55%" align="center" valign="center"><strong>權限</strong>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="hover">
+                            <td height="30px" width="15%" align="center" valign="center">社長</td>
+                            <td height="30px" width="15%" align="center" valign="center">資管二乙</td>
+                            <td height="30px" width="15%" align="center" valign="center">Toshi</td>
+                            <td height="30px" width="55%" align="center" valign="center" checked onclick="return false;"><input type="checkbox" name="1" checked onclick="return false;"> 管理活動&nbsp;&nbsp;<input type="checkbox" name="2" checked onclick="return false;"> 管理報名&nbsp;&nbsp;<input type="checkbox" name="3" checked onclick="return false;"> 管理權限&nbsp;&nbsp;<input type="checkbox" name="4" checked onclick="return false;"> 管理社團&nbsp;&nbsp;</td>
+                        </tr>
+                        <tr class="hover">
+                            <td height="30px" width="15%" align="center" valign="center">副社長</td>
+                            <td height="30px" width="15%" align="center" valign="center">資管二乙</td>
+                            <td height="30px" width="15%" align="center" valign="center">Toshi</td>
+                            <td height="30px" width="55%" align="center" valign="center"><input type="checkbox" name="1" checked onclick="return false;"> 管理活動&nbsp;&nbsp;<input type="checkbox" name="2" checked onclick="return false;"> 管理報名&nbsp;&nbsp;<input type="checkbox" name="3"> 管理權限&nbsp;&nbsp;<input type="checkbox" name="4" checked onclick="return false;"> 管理社團&nbsp;&nbsp;</td>
+                        </tr>
+                        <tr class="hover">
+                            <td height="30px" width="15%" align="center" valign="center">活動長</td>
+                            <td height="30px" width="15%" align="center" valign="center">資管二乙</td>
+                            <td height="30px" width="15%" align="center" valign="center">Gin</td>
+                            <td height="30px" width="55%" align="center" valign="center"><input type="checkbox" name="1" checked onclick="return false;"> 管理活動&nbsp;&nbsp;<input type="checkbox" name="2" checked onclick="return false;"> 管理報名&nbsp;&nbsp;<input type="checkbox" name="3"> 管理權限&nbsp;&nbsp;<input type="checkbox" name="4"> 管理社團&nbsp;&nbsp;</td>
+                        </tr>
+                        <tr class="hover">
+                            <td height="30px" width="15%" align="center" valign="center">公關長</td>
+                            <td height="30px" width="15%" align="center" valign="center">資管二乙</td>
+                            <td height="30px" width="15%" align="center" valign="center">Ishao</td>
+                            <td height="30px" width="55%" align="center" valign="center"><input type="checkbox" name="1"> 管理活動&nbsp;&nbsp;<input type="checkbox" name="2"> 管理報名&nbsp;&nbsp;<input type="checkbox" name="3"> 管理權限&nbsp;&nbsp;<input type="checkbox" name="4" checked onclick="return false;"> 管理社團&nbsp;&nbsp;</td>
+                        </tr>
+                    </tbody>
+                    </table>
+            </div>
+            <br>
+            <div class="row justify-content-right">
+                <div style="width: 50%; float: left;">
+                    <h6 style="font-family: 微軟正黑體; font-size: 24px;">社團成員</h6>
+                </div>
+                <div style="width: 50%; float: right; padding-left: 475px;">
+                    <button class="button"><a class="portfolio-link" data-toggle="modal" href="#portfolioModal1"><font color="white">新增成員</font></a></button>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                    <table style="font-family: 微軟正黑體; font-size: 16px;" border="1" width="1200px">
+                    <thead>
+                        <tr>
+                            <td height="30px" width="20%" align="center" valign="center"><strong>學號</strong></td>
+                            <td height="30px" width="20%" align="center" valign="center"><strong>系級</strong></td>
+                            <td height="30px" width="25%" align="center" valign="center"><strong>姓名</strong></td>
+                            <td height="30px" width="25%" align="center" valign="center"><strong>聯絡電話</strong></td>
+                            <td height="30px" width="10%" align="center" valign="center"><strong>刪除</strong></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="hover">
+                            <td align="center" valign="center">406402111</td>
+                            <td align="center" valign="center">三年Z班</td>
+                            <td align="center" valign="center">新八機</td>
+                            <td align="center" valign="center">0912345678</td>
+                            <td align="center" valign="center" style="padding-top: 5px;"><button style="background: none; border: 0;" onClick="alert('刪除成功!')"><label class="trash"><i class="fa fa-trash"></i></label></button></td>
+                        </tr>
+                        <tr class="hover">
+                            <td align="center" valign="center">406402222</td>
+                            <td align="center" valign="center">三年Z班</td>
+                            <td align="center" valign="center">神樂</td>
+                            <td align="center" valign="center">0912345678</td>
+                            <td align="center" valign="center" style="padding-top: 5px;"><button style="background: none; border: 0;" onClick="alert('刪除成功!')"><label class="trash"><i class="fa fa-trash"></i></label></button></td>
+                        </tr>
+                    </tbody>
+                    </table>
+            </div>
+            <br><br>
+        </div>
+    </div>
+        </div>
+    </section>
+<!-- 權限 結束-->
+
+<!-- Modal 1 新增社團成員 開始-->
+    <div class=" modal fade" id="portfolioModal1" tabindex="-1" >
+      <div class="modal-dialog modal-lg" style="width: 100%">
+        <div class="modal-content">
+          <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+          </div>
+          <div class="modal-body">
+          <div id="selectTree" class="ztree" style="height:1000px width:1000px;overflow:auto;">
+
+     <form>
+        <table align="center" border="0" rules="all" width="100%" style="font-family: 微軟正黑體">
+            <h2 align="center"><font face="微軟正黑體">新增社團成員</font></h2><br>
+            <thead>
+                <tr style="border-color: white;">
+                    <td height="30px" width="25%" align="center" valign="center"><strong>學號</strong></td>
+                    <td height="30px" width="25%" align="center" valign="center"><strong>系級</strong></td>
+                    <td height="30px" width="25%" align="center" valign="center"><strong>姓名</strong></td>
+                    <td height="30px" width="25%" align="center" valign="center"><strong>聯絡電話</strong></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="border-color: white;">
+                    <td align="center" valign="center"><input type="text" name="m_a" size="15"></td>
+                    <td align="center" valign="center"><input type="text" name="m_d" size="15"></td>
+                    <td align="center" valign="center"><input type="text" name="m_n" size="15"></td>
+                    <td align="center" valign="center"><input type="text" name="m_p" size="15"></td>
+                </tr>
+                <tr height="50" style="border-color: white;">
+                    <td colspan="4" align="center" valigh="middle"><br><br>
+                    <button type="submit" value="提交" class="button" onClick="alert('提交成功。')">提交</button>&nbsp;&nbsp;&nbsp;
+                    <button type="reset" value="重設" class="button">重設</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table><br>
+    </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- 新增社團成員 結束 -->
+
+<!-- Modal 2 新增權限 開始-->
+    <div class=" modal fade" id="portfolioModal2" tabindex="-1" >
+      <div class="modal-dialog modal-lg" style="width: 100%">
+        <div class="modal-content">
+          <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+          </div>
+          <div class="modal-body">
+          <div id="selectTree" class="ztree" style="height:1000px width:1000px;overflow:auto;">
+     <form>
+        <table align="center" border="0" rules="all" width="100%" style="font-family: 微軟正黑體">
+            <h2 align="center"><font face="微軟正黑體">新增幹部權限</font></h2><br>
+            <thead>
+                <tr style="border-color: white;">
+                    <td height="30px" width="15%" align="center" valign="center"><strong>職稱</strong></td>
+                    <td height="30px" width="15%" align="center" valign="center"><strong>系級</strong></td>
+                    <td height="30px" width="10%" align="center" valign="center"><strong>姓名</strong></td>
+                    <td height="30px" width="60%" align="center" valign="center"><strong>權限</strong></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="border-color: white;">
+                    <td align="center" valign="center"><input type="text" name="acc_a" size="12"></td>
+                    <td align="center" valign="center"><input type="text" name="acc_d" size="10"></td>
+                    <td align="center" valign="center"><input type="text" name="acc_n" size="10"></td>
+                    <td align="center" valign="center"><input type="checkbox" name="1"> 管理活動&nbsp;&nbsp;<input type="checkbox" name="2"> 管理報名&nbsp;&nbsp;<input type="checkbox" name="3"> 管理權限&nbsp;&nbsp;<input type="checkbox" name="4"> 管理社團&nbsp;&nbsp;</td>
+                </tr>
+                <tr height="50" style="border-color: white;">
+                    <td colspan="4" align="center" valigh="middle"><br><br>
+                    <button type="submit" value="提交" class="button" onClick="alert('提交成功。')">提交</button>&nbsp;&nbsp;&nbsp;
+                    <button type="reset" value="重設" class="button">重設</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table><br>
+    </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- 新增權限 結束 -->
+
+    <!-- **** All JS Files ***** -->
+    <!-- jQuery 2.2.4 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins -->
+    <script src="js/roberto.bundle.js"></script>
+    <!-- Active -->
+    <script src="js/default-assets/active.js"></script>
+
+</body>
+
+</html>

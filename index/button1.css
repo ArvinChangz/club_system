@@ -1,0 +1,114 @@
+.button{
+    background-color: #6b799e;
+    padding: 2px 8px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: 微軟正黑體;
+}
+.signbutton {
+    background-color: rgb(166, 194, 206);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 微軟正黑體;
+    padding: 4px 10px;
+    border-radius: 3px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+
+.signcheckbutton{
+    background-color: #a6c2ce;
+    padding: 4px 14px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: 微軟正黑體;
+}
+
+.myButton {
+	background-color:#7892c2;
+	-moz-border-radius:14px;
+	-webkit-border-radius:14px;
+	border-radius:14px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #283966;
+}
+.myButton:hover {
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+details {
+    width: 90%;
+    padding: 5px 30px;
+    margin-bottom: 10px;
+}
+
+.search-container button {
+  float: middle;
+  padding: 3px 6px;
+  margin-top: 8px;
+  margin-right: 10px;
+  background: #ddd;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.page{
+	margin:0 26% 0 26%;
+	padding: 10px 10px;
+	height:180px;
+}
+
+.header{
+	margin: 10 atuo;
+	height: 60px;
+	text-align:center;
+}
+
+.lable1 {
+    width: 40%;
+    height: 180px;
+    border: 1;
+    background-color: gray;
+    float:left;
+    align-content: center;
+      display: block;
+    margin-bottom: 30px;
+   border-radius:30px;
+}
+
+.lable2 {
+    width: 60%;
+    height: 180px;
+    border: 1;
+    background-color: cadetblue;
+    float:left;
+    align-content: center;
+    border-radius: 0px  20px 20px 0px;
+}
+
+.trash{
+    background-color: none;
+    padding: 2px 8px;
+    border: none;
+    text-align: center;
+}
